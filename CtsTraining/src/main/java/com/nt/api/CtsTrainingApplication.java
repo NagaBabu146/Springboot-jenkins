@@ -35,6 +35,7 @@ public class CtsTrainingApplication {
 	}
 	@PostMapping("/orderLaptop")
 	public Laptop order(@RequestBody Laptop laptop) {
+		
 		return laptop;
 	
 		
